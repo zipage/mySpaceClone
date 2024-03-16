@@ -1,0 +1,191 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER & NAV */
+.navMenu {
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(133, 133, 231);
+}
+
+/* ul, li a for navigation menu links */
+#nav,
+#navLinks a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+#navLinks {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+/* MAIN CONTENT */
+main {
+  width: 100%;
+  margin: 35px;
+  padding: 32px;
+  display: flex;
+}
+
+/* leftContainerContent */
+
+.leftContainerContent {
+  float: left;
+  width: 45%;
+  position: absolute;
+  font-size: large;
+}
+.leftContainerContent__profile {
+  width: 50%;
+  border: 2px solid rgb(133, 133, 231);
+  background-color: rgb(224, 224, 253);
+}
+
+.leftContainerContent__profile--header {
+  margin: 0;
+  padding: 3px;
+  height: 20px;
+  background-color: rgb(133, 133, 231);
+}
+
+/* leftContainerContent__profileImgAndLinks */
+.leftContainerContent__profileImgAndLinks {
+  display: flex;
+}
+#profileLinksRightSide,
+#linksRightSide a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.leftContainerContent__profileImgAndLinks--img {
+  margin-top: 9px;
+  padding: 4px;
+}
+
+.leftContainerContent__profileImgAndLinks--linksRightSide {
+  margin-top: -170px;
+  padding: 14px;
+  float: right;
+  position: absolute;
+  left: 22%;
+  line-height: 20px;
+  font-size: 13.5px;
+  font-weight: bold;
+}
+
+/* lefContainerContent__profile menu items */
+.leftContainerContent__profile--viewMyLinks {
+}
+
+#viewMyMenu,
+#viewMyLinks a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  word-spacing: 4px;
+}
+
+#viewMyLinks {
+  display: inline;
+}
+
+#viewMyMenu {
+  margin: 5px;
+  padding: 5px;
+}
+
+.leftContainerContent__profile--viewMyLinks {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* leftContainerContent__myMail */
+
+#myMailLinks,
+#mailLinks a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#mailLinks {
+  display: flex;
+}
+
+.leftContainerContent__myMail {
+  width: 50%;
+  border: 2px solid rgb(133, 133, 231);
+}
+
+.leftContainerContent__myMail--header {
+  margin: 0;
+  padding: 3px;
+  height: 20px;
+  background-color: rgb(133, 133, 231);
+}
+
+.leftContainerContent__myMail--links {
+  margin-left: -30px;
+  padding: 0px;
+  display: flex;
+  position: relative;
+  left: 10%;
+  line-height: 17px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.viewYourProfileBtn > button {
+  width: 50.5%;
+  padding: 5px;
+  border: 2px solid rgb(133, 133, 231);
+  background-color: white;
+}
+
+.announcements {
+  width: 50%;
+}
+
+/* rightContainerContent */
+.rightContainerContent {
+  width: 55%;
+  position: absolute;
+  left: 30%;
+  font-size: large;
+}
+
+.rightContainerContent__blogEntries {
+  margin-top: -15px;
+  padding: 10px;
+  font-size: large;
+  position: absolute;
+}
+
+.rightContainerContent__dateContainerBox {
+  margin: 0px;
+  padding: 0px;
+  width: 30%;
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  border: 2px solid rgb(133, 133, 231);
+}
+
+.rightContainerContent__dateContainerBox--header {
+  margin: 0;
+  padding: 3px;
+  height: 20px;
+  background-color: rgb(133, 133, 231);
+}
